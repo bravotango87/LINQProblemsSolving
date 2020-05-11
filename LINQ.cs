@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQProblems
 {
-    class LINQ
+    public class LINQ
     {
         // member variables (Has a)
 
@@ -23,8 +23,32 @@ namespace LINQProblems
 
       // constructor (Spawner)
 
+        public LINQ()
+        {
+            ReturnWordsWithTh(words);
+            ReturnNoDuplicates(names);
+            CalculateClassAverage(classGrades);
+
+        }
+     
+        
 
      // member methods (Can do)
+        
+        public void ReturnWordsWithTh(List<string> words)
+        {
+
+        }
+
+        public void ReturnNoDuplicates(List<string> names)
+        {
+
+        }
+
+        public void CalculateClassAverage (List<string> classGrades)
+        {
+
+        }
 
     }
 }
