@@ -13,9 +13,17 @@ namespace LINQProblems
 
             LINQ linq = new LINQ();
 
-            //linq.ReturnWordsWithTh(linq.wordslist);
+            linq.ReturnWordsWithTh(linq.wordslist);
+            Console.ReadLine();
+            
+
+            
 
             linq.ReturnNoDuplicates(linq.nameslist);
+            Console.ReadLine();
+
+            linq.CalculateClassAverage(linq.classGrades);
+            Console.ReadLine();
 
            
 

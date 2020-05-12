@@ -53,6 +53,8 @@ namespace LINQProblems
             foreach (var namess in removeNames)
             {
                 Console.WriteLine(namess);
+                
+                
             }
 
         }
