@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace LINQProblems
 {
-    public class LINQ
+    class LINQ
     {
         // member variables (Has a)
 
 
-        public List<string> words = new List<string>() {"the", "bike", "this", "it", "tenth", "mathematics"};
+        public List<string> wordslist = new List<string>() {"the", "bike", "this", "it", "tenth", "mathematics"};
         public List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
         public List<string> classGrades = new List<string>()
         {
@@ -23,20 +23,22 @@ namespace LINQProblems
 
       // constructor (Spawner)
 
-        public LINQ()
-        {
-            ReturnWordsWithTh(words);
-            ReturnNoDuplicates(names);
-            CalculateClassAverage(classGrades);
-
-        }
-     
+      
         
 
      // member methods (Can do)
-        
+       
+            
+        // 1. write a function that returns "th" from the list.
         public void ReturnWordsWithTh(List<string> words)
         {
+            var word = words;
+            var ThWord = word.Where(w =>w.Contains("th"));
+           
+            foreach (var wo in ThWord)
+            {
+                Console.WriteLine(wo);
+            }
 
         }
 
