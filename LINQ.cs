@@ -12,7 +12,7 @@ namespace LINQProblems
 
 
         public List<string> wordslist = new List<string>() {"the", "bike", "this", "it", "tenth", "mathematics"};
-        public List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
+        public List<string> nameslist = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
         public List<string> classGrades = new List<string>()
         {
             "80, 100, 92, 89, 65",
@@ -38,13 +38,22 @@ namespace LINQProblems
             foreach (var wo in ThWord)
             {
                 Console.WriteLine(wo);
+                
             }
+            
 
         }
 
         // 2. write function that returns copy of list with no duplicates (last mike needs ti be gone)
         public void ReturnNoDuplicates(List<string> names)
         {
+            var name = names;
+            var removeNames = name.Distinct();
+
+            foreach (var namess in removeNames)
+            {
+                Console.WriteLine(namess);
+            }
 
         }
 

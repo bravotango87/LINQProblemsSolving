@@ -13,9 +13,9 @@ namespace LINQProblems
 
             LINQ linq = new LINQ();
 
-            linq.ReturnWordsWithTh(linq.wordslist);
+            //linq.ReturnWordsWithTh(linq.wordslist);
 
-            linq.ReturnNoDuplicates(linq.names);
+            linq.ReturnNoDuplicates(linq.nameslist);
 
            
 
