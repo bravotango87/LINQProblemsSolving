@@ -42,6 +42,7 @@ namespace LINQProblems
 
         }
 
+        // 2. write function that returns copy of list with no duplicates (last mike needs ti be gone)
         public void ReturnNoDuplicates(List<string> names)
         {
 

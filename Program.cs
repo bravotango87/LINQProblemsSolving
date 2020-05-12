@@ -15,6 +15,8 @@ namespace LINQProblems
 
             linq.ReturnWordsWithTh(linq.wordslist);
 
+            linq.ReturnNoDuplicates(linq.names);
+
            
 
 
